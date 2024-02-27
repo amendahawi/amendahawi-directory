@@ -31,7 +31,7 @@ function App() {
         <br></br>
 
         {/* PROJECTS */}
-        <p className="secondary_text">Prev. Projects</p>
+        <p className="secondary_text">Prev. Works</p>
         <ul>
         <li>
             <a
