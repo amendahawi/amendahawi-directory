@@ -1,0 +1,23 @@
+body {
+  background-color: #181818;
+  color: #cccccc;
+  font-size: 1em;
+  margin: 10%;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  list-style: none;
+}
+
+.secondary_text {
+  color: #646464;
+}
+
+ul {
+  list-style: none;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: #60beea;
+}
