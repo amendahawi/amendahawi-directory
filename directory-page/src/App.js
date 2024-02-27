@@ -33,13 +33,22 @@ function App() {
         {/* PROJECTS */}
         <p className="secondary_text">Prev. Works</p>
         <ul>
-        <li>
+          <li>
             <a
               href="https://arete-reality.vercel.app/manifesto"
               target="_blank"
               rel="noopener noreferrer"
             >
               Arete Reality Labs | Founder
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://swiftpages.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SwiftPages | Software Engineer, Founder
             </a>
           </li>
           <li>
