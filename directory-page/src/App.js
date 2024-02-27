@@ -10,7 +10,7 @@ function App() {
         <br></br>
 
         {/* ABOUT */}
-        <p className="secondary_text">Heyy,</p>
+        <p className="secondary_text">Hey,</p>
         <p>
           I'm a Computer Science student at NYU. I have developed several games
           (200 million+ play sessions), created a few websites, and programmed a
