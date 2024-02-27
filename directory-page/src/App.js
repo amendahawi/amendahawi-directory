@@ -33,9 +33,18 @@ function App() {
         {/* PROJECTS */}
         <p className="secondary_text">Prev. Projects</p>
         <ul>
+        <li>
+            <a
+              href="https://arete-reality.vercel.app/manifesto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Arete Reality Labs | Founder
+            </a>
+          </li>
           <li>
             <a
-              href="https://yur.energy/"
+              href="https://www.rescue.org/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,7 +62,16 @@ function App() {
           </li>
           <li>
             <a
-              href="https://yur.energy/"
+              href="https://www.mgl.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Metaverse Gaming League | Advisor
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=dHLVQPFt4Io"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +80,7 @@ function App() {
           </li>
           <li>
             <a
-              href="https://yur.energy/"
+              href="https://www.youtube.com/watch?v=PvZmPNo36KU"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,7 +89,7 @@ function App() {
           </li>
           <li>
             <a
-              href="https://yur.energy/"
+              href="https://www.youtube.com/watch?v=QCxybNkAruo"
               target="_blank"
               rel="noopener noreferrer"
             >
