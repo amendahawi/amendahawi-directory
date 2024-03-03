@@ -16,7 +16,7 @@ function App() {
           (200 million+ play sessions), created a few websites, and programmed a
           few things.
         </p>
-        <p>Feel free to explore and / or reach out to me.</p>
+        <p>Feel free to explore this page and / or reach out to me.</p>
         <br></br>
 
         {/* INTERESTS */}
@@ -31,9 +31,9 @@ function App() {
         <br></br>
 
         {/* PROJECTS */}
-        <p className="secondary_text">Prev. Works</p>
+        <p className="secondary_text">Works / Exp.</p>
         <ul>
-          <li>
+          {/* <li>
             <a
               href="https://arete-reality.vercel.app/manifesto"
               target="_blank"
@@ -41,14 +41,14 @@ function App() {
             >
               Arete Reality Labs | Founder
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="https://swiftpages.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              SwiftPages | Software Engineer, Founder
+              SwiftPages | Founder
             </a>
           </li>
           <li>
@@ -75,7 +75,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Metaverse Gaming League | Advisor
+              MGL | Advisor
             </a>
           </li>
           <li>
@@ -93,7 +93,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Project Tactical | Lead Game Developer
+              Centuro | Lead Game Developer
             </a>
           </li>
           <li>
@@ -145,15 +145,6 @@ function App() {
               rel="noopener noreferrer"
             >
               GitHub
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://open.spotify.com/user/kzept8nk8x88zlpl52vpxn3cg"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Spotify
             </a>
           </li>
         </ul>

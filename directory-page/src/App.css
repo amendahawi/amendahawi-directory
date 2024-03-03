@@ -1,9 +1,12 @@
 body {
-  background-color: #181818;
-  color: #cccccc;
+  background-color: #ffffff;
+  color: #1a1a1a;
   font-size: 1em;
-  margin: 10%;
-  font-family: Arial, sans-serif;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  margin-left: 18%;
+  margin-right: 18%;
+  font-family: "Roboto Mono", monospace;
   font-weight: 300;
   list-style: none;
 }
@@ -17,7 +20,19 @@ ul {
   padding: 0%;
 }
 
+ul li a:hover {
+  text-decoration: underline;
+  color: rgb(18, 128, 218);
+}
+
+ul li a:hover::before {
+  content: ">";
+  color: rgb(18, 128, 218);
+  text-decoration: underline;
+  padding-right: 5px;
+}
+
 a {
   text-decoration: none;
-  color: #60beea;
+  color: #29a9e4;
 }
