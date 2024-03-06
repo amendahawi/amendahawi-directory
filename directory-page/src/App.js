@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
         {/* HEADER */}
         <p>Abdul Mendahawi</p>
-        <p>am13948@nyu.edu</p>
+        <p>am13948@nyu.edu (i read)</p>
         <br></br>
 
         {/* ABOUT */}
