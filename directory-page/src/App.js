@@ -44,11 +44,11 @@ function App() {
           </li> */}
           <li>
             <a
-              href="https://swiftpages.vercel.app/"
+              href="https://dunevc.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              SwiftPages | Founder
+              Project Dune | Founder
             </a>
           </li>
           <li>
