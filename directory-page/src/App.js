@@ -30,27 +30,24 @@ function App() {
         </ul>
         <br></br>
 
-        {/* PROJECTS */}
-        <p className="secondary_text">Works / Exp.</p>
+        {/* CURRENT */}
+        <p className="secondary_text">Current</p>
         <ul>
-          {/* <li>
+          <li>
             <a
               href="https://arete-reality.vercel.app/manifesto"
               target="_blank"
               rel="noopener noreferrer"
+              className="project-dune"
             >
-              Arete Reality Labs | Founder
-            </a>
-          </li> */}
-          <li>
-            <a
-              href="https://dunevc.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Project Dune | Founder
+              Dune//C | Founder
             </a>
           </li>
+        </ul>
+
+        {/* PROJECTS */}
+        <p className="secondary_text">Works / Exp.</p>
+        <ul>
           <li>
             <a
               href="https://www.rescue.org/"

@@ -32,6 +32,11 @@ ul {
 ul li a:hover {
   text-decoration: underline;
   color: rgb(18, 128, 218);
+  font-weight: bold;
+}
+
+.project-dune:hover {
+  color: #c981c9;
 }
 
 ul li a:hover::before {
