@@ -35,7 +35,7 @@ function App() {
         <ul>
           <li>
             <a
-              href="https://arete-reality.vercel.app/manifesto"
+              href="https://dunevc.vercel.app/home"
               target="_blank"
               rel="noopener noreferrer"
               className="project-dune"
