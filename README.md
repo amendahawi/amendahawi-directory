@@ -5,7 +5,3 @@ This website is dedicated to providing information about me. You can find detail
 [Amendahawi's Directory](https://amendahawi.github.io/amendahawi-directory/)
 
 Feel free to explore and get to know me better!
-
-Thank you for visiting.
-
-- Abdul Mendahawi
