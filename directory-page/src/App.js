@@ -6,15 +6,15 @@ function App() {
       <header className="App-header">
         {/* HEADER */}
         <p>Abdul Mendahawi</p>
-        <p>am13948@nyu.edu (i read)</p>
+        <p>am13948@nyu.edu (yes, i read my emails)</p>
         <br></br>
 
         {/* ABOUT */}
         <p className="secondary_text">Hey,</p>
         <p>
           I'm a Computer Science student at NYU. I have developed several games
-          (200 million+ play sessions), created a few websites, and programmed a
-          few things.
+          (200 million+ play sessions), created a few websites, and programmed some
+          pretty cool things.
         </p>
         <p>Feel free to explore this page and / or reach out to me.</p>
         <br></br>
@@ -35,12 +35,12 @@ function App() {
         <ul>
           <li>
             <a
-              href="https://dunevc.vercel.app/home"
+              // href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="project-dune"
+              className="currn"
             >
-              Dune//C | Founder
+              To be shared soon!
             </a>
           </li>
         </ul>

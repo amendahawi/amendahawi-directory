@@ -35,8 +35,8 @@ ul li a:hover {
   font-weight: bold;
 }
 
-.project-dune:hover {
-  color: #c981c9;
+.currn:hover {
+  color: #000000;
 }
 
 ul li a:hover::before {
@@ -49,4 +49,9 @@ ul li a:hover::before {
 a {
   text-decoration: none;
   color: #29a9e4;
+}
+
+::selection {
+  background: #000000;
+  color: #ffffff;
 }
