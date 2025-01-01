@@ -38,10 +38,6 @@ ul li a:hover {
   text-decoration: underline;
 }
 
-.currn:hover {
-  color: #000000;
-}
-
 ul li a:hover::before {
   content: ">";
   color: rgb(82, 116, 144);
@@ -52,9 +48,4 @@ ul li a:hover::before {
 a {
   text-decoration: none;
   color: #8ca9b7;
-}
-
-::selection {
-  background: #000000;
-  color: #ffffff;
 }
