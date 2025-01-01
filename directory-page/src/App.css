@@ -1,6 +1,6 @@
 body {
-  background-color: #ffffff;
-  color: #1a1a1a;
+  background-color: #111111;
+  color: #ffffff;
   font-size: 1em;
   margin-top: 6%;
   margin-bottom: 6%;
@@ -29,10 +29,13 @@ ul {
   padding: 0%;
 }
 
+ul li a {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
 ul li a:hover {
   text-decoration: underline;
-  color: rgb(18, 128, 218);
-  font-weight: bold;
 }
 
 .currn:hover {
@@ -41,14 +44,14 @@ ul li a:hover {
 
 ul li a:hover::before {
   content: ">";
-  color: rgb(18, 128, 218);
+  color: rgb(82, 116, 144);
   text-decoration: underline;
   padding-right: 5px;
 }
 
 a {
   text-decoration: none;
-  color: #29a9e4;
+  color: #8ca9b7;
 }
 
 ::selection {

@@ -6,47 +6,71 @@ function App() {
       <header className="App-header">
         {/* HEADER */}
         <p>Abdul Mendahawi</p>
-        <p>am13948@nyu.edu (yes, i read my emails)</p>
+        <p>am13948@nyu.edu</p>
         <br></br>
 
         {/* ABOUT */}
-        <p className="secondary_text">Hey,</p>
+        <p className="secondary_text">Hello,</p>
         <p>
           I'm a Computer Science student at NYU. I have developed several games
-          (200 million+ play sessions), created a few websites, and programmed some
-          pretty cool things.
+          (200 million+ play sessions), programmed a few web apps, and built
+          some really cool projects.
         </p>
-        <p>Feel free to explore this page and / or reach out to me.</p>
-        <br></br>
-
-        {/* INTERESTS */}
-        <p className="secondary_text">Interests</p>
-        <ul>
-          <li>Virtual / Augmented Reality</li>
-          <li>Game Development</li>
-          <li>Computer Science</li>
-          <li>Machine Learning</li>
-          <li>F1 Racing</li>
-        </ul>
+        <p>This page serves as a directory for a few of my projects.</p>
         <br></br>
 
         {/* CURRENT */}
-        <p className="secondary_text">Current</p>
+        <p className="secondary_text">Projects</p>
         <ul>
           <li>
             <a
-              // href=""
+              href="https://adonis-search.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="currn"
             >
-              To be shared soon!
+              Hatch NYU
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://convincegg.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Convince exe
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://genius-ai-opal.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Dragon AI
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://yabnee.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Yabnee.com
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://tryarete.vercel.app/pages/YajA8slpDyustEUGayv7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Arete Publishing
             </a>
           </li>
         </ul>
 
         {/* PROJECTS */}
-        <p className="secondary_text">Works / Exp.</p>
+        <p className="secondary_text">Roles / Exp.</p>
         <ul>
           <li>
             <a
@@ -105,8 +129,8 @@ function App() {
         </ul>
         <br></br>
 
-        {/* LINKS */}
-        <p className="secondary_text">Links</p>
+        {/* PROFILES */}
+        <p className="secondary_text">Profiles</p>
         <ul>
           <li>
             <a
