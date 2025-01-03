@@ -1,6 +1,56 @@
 import "./App.css";
+import List from "./components/List.js";
 
 function App() {
+  // PROJECTS
+  const projects = [
+    { name: "Hatch NYU", link: "https://adonis-search.vercel.app/" },
+    { name: "redditSim", link: "https://reddit-sim.vercel.app/" },
+    { name: "Convince exe", link: "https://convincegg.vercel.app/" },
+    { name: "Dragon AI", link: "https://genius-ai-opal.vercel.app/" },
+    { name: "Yabnee.com", link: "https://yabnee.com/" },
+    {
+      name: "Arete Publishing",
+      link: "https://tryarete.vercel.app/pages/YajA8slpDyustEUGayv7",
+    },
+  ];
+
+  // ROLES / EXP.
+  const roles = [
+    { name: "IRC | Data Management Intern", link: "https://www.rescue.org/" },
+    { name: "YUR | Software Engineering Intern", link: "https://yur.energy/" },
+    { name: "MGL | Advisor", link: "https://www.mgl.co/" },
+    {
+      name: "RoVille | Game Developer",
+      link: "https://www.youtube.com/watch?v=dHLVQPFt4Io",
+    },
+    {
+      name: "Centuro | Lead Game Developer",
+      link: "https://www.youtube.com/watch?v=PvZmPNo36KU",
+    },
+    {
+      name: "Millitant | Lead Game Developer",
+      link: "https://www.youtube.com/watch?v=QCxybNkAruo",
+    },
+  ];
+
+  // PROFILES
+  const profiles = [
+    {
+      name: "Twitter | Software Engineering",
+      link: "https://twitter.com/abdulmendahawi",
+    },
+    {
+      name: "Twitter | Game Development",
+      link: "https://twitter.com/tickyotacky",
+    },
+    {
+      name: "Linkedin",
+      link: "https://www.linkedin.com/in/abdulmend/",
+    },
+    { name: "GitHub", link: "https://github.com/amendahawi" },
+  ];
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,155 +69,29 @@ function App() {
         <p>This page serves as a directory for a few of my projects.</p>
         <br></br>
 
-        {/* CURRENT */}
+        {/* PROJECTS */}
         <p className="secondary_text">Projects</p>
         <ul>
-          <li>
-            <a
-              href="https://adonis-search.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Hatch NYU
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://convincegg.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Convince exe
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://genius-ai-opal.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Dragon AI
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://yabnee.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Yabnee.com
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://tryarete.vercel.app/pages/YajA8slpDyustEUGayv7"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Arete Publishing
-            </a>
-          </li>
+          {projects.map((project, index) => (
+            <List key={index} name={project.name} link={project.link} />
+          ))}
         </ul>
 
-        {/* PROJECTS */}
+        {/* ROLES / Exp. */}
         <p className="secondary_text">Roles / Exp.</p>
         <ul>
-          <li>
-            <a
-              href="https://www.rescue.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              IRC | Data Management Intern
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://yur.energy/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              YUR | Software Engineering Intern
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.mgl.co/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              MGL | Advisor
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/watch?v=dHLVQPFt4Io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              RoVille | Game Developer
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/watch?v=PvZmPNo36KU"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Centuro | Lead Game Developer
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/watch?v=QCxybNkAruo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Millitant | Lead Game Developer
-            </a>
-          </li>
+          {roles.map((roles, index) => (
+            <List key={index} name={roles.name} link={roles.link} />
+          ))}
         </ul>
         <br></br>
 
         {/* PROFILES */}
         <p className="secondary_text">Profiles</p>
         <ul>
-          <li>
-            <a
-              href="https://twitter.com/abdulmendahawi"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter | Software Engineering
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://twitter.com/tickyotacky"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter | Game Development
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/abdulmend/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Linkedin
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/amendahawi"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </li>
+          {profiles.map((profiles, index) => (
+            <List key={index} name={profiles.name} link={profiles.link} />
+          ))}
         </ul>
       </header>
     </div>
