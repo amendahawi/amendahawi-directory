@@ -1,0 +1,2 @@
+body{background-color:#111;color:#fff;font-family:Roboto Mono,monospace;font-size:1em;font-weight:300;list-style:none;margin:6% 18%}@media only screen and (max-width:768px){body{margin:3% 6%}}.secondary_text{color:#646464}ul{list-style:none;padding:0}ul li a{position:relative;transition:all .3s ease}ul li a:hover,ul li a:hover:before{text-decoration:underline}ul li a:hover:before{color:#527490;content:">";padding-right:5px}a{color:#8ca9b7;text-decoration:none}
+/*# sourceMappingURL=main.02904ded.css.map*/
