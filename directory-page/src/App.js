@@ -4,7 +4,7 @@ import List from "./components/List.js";
 function App() {
   // PROJECTS
   const projects = [
-    { name: "Hatch NYU", link: "https://adonis-search.vercel.app/" },
+    { name: "Hatch NYU", link: "https://adonis-search.vercel.app/search" },
     { name: "redditSim", link: "https://reddit-sim.vercel.app/" },
     { name: "Convince exe", link: "https://convincegg.vercel.app/" },
     { name: "Dragon AI", link: "https://genius-ai-opal.vercel.app/" },
