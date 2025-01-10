@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/amendahawi-directory/static/css/main.924cc01e.css",
+    "main.js": "/amendahawi-directory/static/js/main.4542841b.js",
+    "static/js/453.a56f0567.chunk.js": "/amendahawi-directory/static/js/453.a56f0567.chunk.js",
+    "index.html": "/amendahawi-directory/index.html",
+    "main.924cc01e.css.map": "/amendahawi-directory/static/css/main.924cc01e.css.map",
+    "main.4542841b.js.map": "/amendahawi-directory/static/js/main.4542841b.js.map",
+    "453.a56f0567.chunk.js.map": "/amendahawi-directory/static/js/453.a56f0567.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.924cc01e.css",
+    "static/js/main.4542841b.js"
+  ]
+}
