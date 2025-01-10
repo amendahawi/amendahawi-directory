@@ -57,7 +57,6 @@ function App() {
         {/* HEADER */}
         <p>Abdul Mendahawi</p>
         <p>am13948@nyu.edu</p>
-        <br></br>
 
         {/* ABOUT */}
         <p className="secondary_text">Hello,</p>
@@ -67,7 +66,6 @@ function App() {
           some really cool projects.
         </p>
         <p>This page serves as a directory for a few of my projects.</p>
-        <br></br>
 
         {/* PROJECTS */}
         <p className="secondary_text">Projects</p>
@@ -84,7 +82,6 @@ function App() {
             <List key={index} name={roles.name} link={roles.link} />
           ))}
         </ul>
-        <br></br>
 
         {/* PROFILES */}
         <p className="secondary_text">Profiles</p>
