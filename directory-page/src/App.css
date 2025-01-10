@@ -4,21 +4,20 @@ body {
   background-color: #111111;
   color: #ffffff;
   font-size: 1em;
-  margin-top: 6%;
-  margin-bottom: 6%;
-  margin-left: 18%;
-  margin-right: 18%;
   font-family: "Manrope", monospace;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-@media only screen and (max-width: 768px) {
-  body {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 6%;
-    margin-right: 6%;
-  }
+.App-header {
+  text-align: left;
+  width: 800px;
+  max-width: 80vw;
 }
 
 .secondary_text {
@@ -27,7 +26,7 @@ body {
 
 ul {
   list-style: none;
-  padding: 0%;
+  padding: 0;
 }
 
 ul li a {

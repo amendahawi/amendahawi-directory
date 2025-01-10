@@ -59,16 +59,14 @@ function App() {
         <p>am13948@nyu.edu</p>
 
         {/* ABOUT */}
-        <p className="secondary_text">Hello,</p>
+        <h4 className="secondary_text">Hello,</h4>
         <p>
           I'm a Computer Science student at NYU. I have developed several games
-          (200 million+ play sessions), programmed a few web apps, and built
-          some really cool projects.
+          (200 million+ play sessions) and built some really cool projects.
         </p>
-        <p>This page serves as a directory for a few of my projects.</p>
 
         {/* PROJECTS */}
-        <p className="secondary_text">Projects</p>
+        <h4 className="secondary_text">Projects</h4>
         <ul>
           {projects.map((project, index) => (
             <List key={index} name={project.name} link={project.link} />
@@ -76,7 +74,7 @@ function App() {
         </ul>
 
         {/* ROLES / Exp. */}
-        <p className="secondary_text">Roles / Exp.</p>
+        <h4 className="secondary_text">Roles / Exp.</h4>
         <ul>
           {roles.map((roles, index) => (
             <List key={index} name={roles.name} link={roles.link} />
@@ -84,7 +82,7 @@ function App() {
         </ul>
 
         {/* PROFILES */}
-        <p className="secondary_text">Profiles</p>
+        <h4 className="secondary_text">Profiles</h4>
         <ul>
           {profiles.map((profiles, index) => (
             <List key={index} name={profiles.name} link={profiles.link} />
